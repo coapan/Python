@@ -33,6 +33,7 @@ print(t)
 t = (1, 2, 3,)
 print(t)
 
+# tuple 中包含 list，这时我们可以对list进行修改
 t = ('a', 'b', 'c', ['1a', '2b', '3c'])
 print(t)
 L = t[3]
